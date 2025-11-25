@@ -1,7 +1,7 @@
 const blogs = [
   {
     "id": "1",
-    "img": "/img/blog/blog-1.jpg",
+    "img": "/img/custom/place-suite.jpg",
     "img1": "/img/blog/blog-11.jpg",
     "img2": "/img/blog/blog-12.jpg",
     "date": "21",
@@ -13,7 +13,7 @@ const blogs = [
   },
   {
     "id": "2",
-    "img": "/img/blog/blog-2.jpg",
+    "img": "/img/custom/place-pool.jpg",
     "img1": "/img/blog/blog-11.jpg",
     "img2": "/img/blog/blog-12.jpg",
     "date": "25",
@@ -25,7 +25,7 @@ const blogs = [
   },
   {
     "id": "3",
-    "img": "/img/blog/blog-3.jpg",
+    "img": "/img/custom/booking-pool.jpg",
     "img1": "/img/blog/blog-11.jpg",
     "img2": "/img/blog/blog-12.jpg",
     "date": "29",

@@ -24,7 +24,7 @@ const Roomarea = () => {
           </div>
           <div className="col-xl-4 order-last order-lg-second">
             <div className="room__area-image">
-              <img src="/img/hotel/hotel-5.jpg" alt="" />
+              <img src="/img/custom/room-single.jpg" alt="Premium single room interior" />
             </div>
           </div>
           <div className="col-xl-4 col-lg-6 xl-mb-30">

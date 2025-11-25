@@ -9,12 +9,12 @@ const bannerData = {
     {
       subtitle: "Hotel Booking Website",
       title: "The best way to book hotels online.",
-      image: "/img/banner-2.jpg",
+      image: "/img/custom/hero-suite.jpg",
     },
     {
       subtitle: "Hotel Booking Website",
       title: "The Best Hotel Deals in the World.",
-      image: "/img/banner-4.jpg",
+      image: "/img/custom/hero-pool.jpg",
     },
   ],
 };

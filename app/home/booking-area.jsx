@@ -1,6 +1,9 @@
 const Bookingarea = () => {
   return (
-    <div className="booking__area" style={{backgroundImage: `url('/img/bg/booking.jpg')`}}>
+    <div
+      className="booking__area"
+      style={{ backgroundImage: `url('/img/custom/booking-pool.jpg')` }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-xl-5 col-lg-6">

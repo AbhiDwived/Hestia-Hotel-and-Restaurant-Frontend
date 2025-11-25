@@ -20,7 +20,14 @@ const Teamarea = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 mt-30" key={id}>
               <div className="team__area-item">
                 <div className="team__area-item-image">
-                  <Image alt="" src={data.img} />
+                  <Image
+                    alt={`${data.name} portrait`}
+                    src={data.img}
+                    width={400}
+                    height={480}
+                    className="w-100"
+                    style={{ objectFit: "cover" }}
+                  />
                   <div className="team__area-item-image-overlay">
                     <div className="team__area-item-image-overlay-social">
                       <Social />

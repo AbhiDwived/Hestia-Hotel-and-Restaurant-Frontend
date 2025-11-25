@@ -14,7 +14,14 @@ const Servicesteam = () => {
               <div key={index} className="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div className="services__team-item">
                   <div className="services__team-item-image">
-                    <Image alt="" layout="responsive" src={item.img} />
+                    <Image
+                      alt={`${item.name} portrait`}
+                      src={item.img}
+                      width={400}
+                      height={480}
+                      className="w-100"
+                      style={{ objectFit: "cover" }}
+                    />
                     <div className="services__team-item-image-content">
                       <h5>{item.name}</h5>
                       <span>{item.status}</span>

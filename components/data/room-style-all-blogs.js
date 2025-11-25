@@ -1,18 +1,18 @@
-import luxury6 from "@/public/img/luxury/luxury-6.jpg";
-import luxury7 from "@/public/img/luxury/luxury-7.jpg";
-import luxury8 from "@/public/img/luxury/luxury-8.jpg";
-import luxury9 from "@/public/img/luxury/luxury-9.jpg";
-import luxury10 from "@/public/img/luxury/luxury-10.jpg";
-import luxury11 from "@/public/img/luxury/luxury-11.jpg";
-import luxury12 from "@/public/img/luxury/luxury-12.jpg";
-import luxury13 from "@/public/img/luxury/luxury-13.jpg";
-import luxury14 from "@/public/img/luxury/luxury-14.jpg";
+import heroSuite from "@/public/img/custom/hero-suite.jpg";
+import accommodationLamp from "@/public/img/custom/accommodation-lamp.jpg";
+import heroPool from "@/public/img/custom/hero-pool.jpg";
+import accommodationTerrace from "@/public/img/custom/accommodation-terrace.jpg";
+import placeSuite from "@/public/img/custom/place-suite.jpg";
+import roomSingle from "@/public/img/custom/room-single.jpg";
+import placePool from "@/public/img/custom/place-pool.jpg";
+import bookingPool from "@/public/img/custom/booking-pool.jpg";
+import callLobby from "@/public/img/custom/call-lobby.jpg";
 
 const roomStyleAllBlogs = [
   {
     title: "Double Room",
     des: "Comfortable and spacious room with modern amenities and city view.",
-    img: luxury6,
+    img: heroSuite,
     image: "/img/hotel/hotel-11.jpg",
     price: 3500,
     bed: 3,
@@ -22,7 +22,7 @@ const roomStyleAllBlogs = [
   {
     title: "Small Suite",
     des: "Cozy suite perfect for couples with elegant furnishing and balcony.",
-    img: luxury7,
+    img: accommodationLamp,
     image: "/img/hotel/hotel-11.jpg",
     cl: "center",
     price: 2999,
@@ -33,7 +33,7 @@ const roomStyleAllBlogs = [
   {
     title: "Luxury room",
     des: "Premium luxury room featuring premium facilities and garden view.",
-    img: luxury8,
+    img: heroPool,
     image: "/img/hotel/hotel-12.jpg",
     price: 4500,
     bed: 3,
@@ -43,7 +43,7 @@ const roomStyleAllBlogs = [
   {
     title: "Junior Suite",
     des: "Spacious junior suite with separate living area and modern decor.",
-    img: luxury9,
+    img: accommodationTerrace,
     image: "/img/hotel/hotel-13.jpg",
     price: 3299,
     bed: 4,
@@ -53,7 +53,7 @@ const roomStyleAllBlogs = [
   {
     title: "Superior Room",
     des: "Superior room with enhanced comfort and premium hotel services.",
-    img: luxury10,
+    img: placeSuite,
     image: "/img/hotel/hotel-14.jpg",
     price: 5999,
     bed: 3,
@@ -63,7 +63,7 @@ const roomStyleAllBlogs = [
   {
     title: "Single Room",
     des: "Perfect single occupancy room with all essential amenities included.",
-    img: luxury11,
+    img: roomSingle,
     image: "/img/hotel/hotel-15.jpg",
     price: 4999,
     bed: 1,
@@ -73,7 +73,7 @@ const roomStyleAllBlogs = [
   {
     title: "Deluxe Room",
     des: "Deluxe accommodation with luxury bedding and complimentary breakfast.",
-    img: luxury12,
+    img: placePool,
     image: "/img/hotel/hotel-16.jpg",
     price: 3999,
     bed: 2,
@@ -83,7 +83,7 @@ const roomStyleAllBlogs = [
   {
     title: "Standard Room",
     des: "Standard room offering comfort and convenience at affordable rates.",
-    img: luxury13,
+    img: bookingPool,
     image: "/img/hotel/hotel-17.jpg",
     price: 4199,
     bed: 3,
@@ -93,7 +93,7 @@ const roomStyleAllBlogs = [
   {
     title: "Family Room",
     des: "Family-friendly room with extra space and child-safe amenities.",
-    img: luxury14,
+    img: callLobby,
     image: "/img/hotel/hotel-18.jpg",
     price: 3699,
     bed: 2,

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Placearea = () => {
@@ -10,12 +11,27 @@ const Placearea = () => {
               <div className="row">
                 <div className="col-6">
                   <div className="place__area-image-one">
-                    <img src="/img/hotel/hotel-6.jpg" alt="" />
+                    {/* <img src="/img/custom/place-suite.jpg" alt="Luxury suite with city view" /> */}
+                    <Image
+                      src="/img/custom/place-suite.jpg"
+                      alt="Luxury suite with city view"
+                      width={520}
+                      height={340}
+                      className="w-100"
+                      style={{ height: "240px", objectFit: "cover" }}
+                    />
                   </div>
                 </div>
                 <div className="col-6">
                   <div className="place__area-image-two">
-                    <img src="/img/hotel/hotel-7.jpg" alt="" />
+                    <Image
+                      src="/img/custom/place-pool.jpg"
+                      alt="Resort pool deck at sunset"
+                      width={520}
+                      height={340}
+                      className="w-100"
+                      style={{ height: "240px", objectFit: "cover" }}
+                    />
                   </div>
                 </div>
               </div>

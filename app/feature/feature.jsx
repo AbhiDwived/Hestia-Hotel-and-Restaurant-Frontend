@@ -10,8 +10,8 @@ export default function Feature() {
           <div className="col-xl-6 col-lg-6">
             <div className="feature__area-image">
               <Image
-                alt=""
-                src="/img/features/feature-1.jpg"
+                alt="Restaurant interior with gourmet setting"
+                src="/img/custom/call-lobby.jpg"
                 width={600}
                 height={600}
               />
@@ -50,8 +50,8 @@ export default function Feature() {
           <div className="col-xl-6 col-lg-6">
             <div className="feature__area-image">
               <Image
-                src="/img/features/feature-2.jpg"
-                alt=""
+                src="/img/custom/accommodation-lamp.jpg"
+                alt="Cozy library corner with bookshelves"
                 width={600}
                 height={600}
               />
@@ -62,8 +62,8 @@ export default function Feature() {
           <div className="col-xl-6 col-lg-6">
             <div className="feature__area-image">
               <Image
-                src="/img/features/feature-3.jpg"
-                alt=""
+                src="/img/custom/accommodation-terrace.jpg"
+                alt="Modern fitness studio with equipment"
                 width={600}
                 height={600}
               />
@@ -102,8 +102,8 @@ export default function Feature() {
           <div className="col-xl-6 col-lg-6">
             <div className="feature__area-image">
               <Image
-                src="/img/features/feature-4.jpg"
-                alt=""
+                src="/img/custom/place-pool.jpg"
+                alt="Luxury infinity pool at sunset"
                 width={600}
                 height={600}
               />

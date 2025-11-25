@@ -37,8 +37,10 @@ export default function Blog() {
                     <Image
                       src={blog.img}
                       alt="blog-image"
-                      width={500}
-                      height={500}
+                      width={520}
+                      height={340}
+                      className="w-100"
+                      style={{ height: "240px", objectFit: "cover" }}
                     />
                   </Link>
                 </div>

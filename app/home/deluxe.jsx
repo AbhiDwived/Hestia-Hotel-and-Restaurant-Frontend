@@ -29,7 +29,7 @@ const Deluxe = () => {
                 <div className="deluxe__two-item-image">
                   <Link href="/room-details">
                     <Image
-                      src={item.img.src}
+                      src={item.img}
                       alt={item.title}
                       width={500}
                       height={500}
