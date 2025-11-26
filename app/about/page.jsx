@@ -1,7 +1,7 @@
 "use client";
 import BreadCrumb from "../breadcrumb/breadcrumb";
 import Footer from "../footer/footer";
-import HeaderOne from "../header/HeaderOne";
+import Header from "../header/header";
 import ScrollToTopButton from "../scroll-to-top/scrollToTop";
 import SEO from "@/components/seo";
 import AboutContent from "./about-content";
@@ -14,7 +14,7 @@ const About = () => {
   return (
     <>
       <SEO pageTitle='About Us' />
-        <HeaderOne />
+        <Header />
         <BreadCrumb title="About Us" innerTitle="About Us" bgImage="/img/banner/page-banner-1.jpg"/>
         <AboutContent />
         <Offerarea />
