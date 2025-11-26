@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Blog, Page, Room } from "./Menu";
+import { Blog, Room, Hotels } from "./Menu";
 import Social from "../socials/page";
 import Link from "next/link";
 import DropDown from "./Down";
@@ -14,11 +14,17 @@ const Header = () => {
             <div className="header__area-menubar">
               <div className="header__area-menubar-left">
                 <div className="header__area-menubar-left-logo">
-                  <Link href="/" className="header-logo-text" style={{fontSize: '24px', fontWeight: 'bold', color: '#ffffff', textDecoration: 'none', display: 'block'}}>
-                    Hestia Hotel and Restaurant
-                  </Link>
+                 <Link href="/">
+  <img
+    src="/logo.png"
+    alt="Hestia Hotel and Restaurant"
+    style={{ width: "220px", height: "auto", maxHeight: "60px", display: "block" }}
+  />
+</Link>
+
                   <div className="responsive-menu"></div>
                 </div>
+
               </div>
               <div className="header__area-menubar-right">
                 <div className="header__area-menubar-right-info">
@@ -38,9 +44,8 @@ const Header = () => {
                 </div>
                 {/* Menu Sidebar Area */}
                 <div
-                  className={`header__area-menubar-right-sidebar-popup two ${
-                    sidebarOpen ? "active" : ""
-                  }`}
+                  className={`header__area-menubar-right-sidebar-popup two ${sidebarOpen ? "active" : ""
+                    }`}
                 >
                   <div
                     className="sidebar-close-btn"
@@ -49,20 +54,25 @@ const Header = () => {
                     <i className="fal fa-times"></i>
                   </div>
                   <div className="header__area-menubar-right-sidebar-popup-logo">
-                    <Link href="/" style={{fontSize: '20px', fontWeight: 'bold', color: '#333', textDecoration: 'none'}}>
-                      Hestia Hotel and Restaurant
+                    <Link href="/">
+                      <img
+                        src="/logo.png"
+                        alt="Hestia Hotel and Restaurant"
+                        style={{ width: "150px", height: "auto" }}
+                      />
                     </Link>
                   </div>
+
                   <div className="header__area-menubar-right-sidebar-popup-menu">
                     <ul className="side__menu">
                       <li>
                         <Link href="/">Home</Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="#">Pages</a>
+                        <a href="#">OUR HOTELS</a>
                         <DropDown />
                         <ul className="sub-menu">
-                          <Page />
+                          <Hotels />
                         </ul>
                       </li>
                       <li className="menu-item-has-children">
@@ -78,6 +88,21 @@ const Header = () => {
                         <ul className="sub-menu">
                           <Blog />
                         </ul>
+                      </li>
+                      <li>
+                        <Link href="/">EVENTS</Link>
+                      </li>
+                      <li>
+                        <Link href="/about">About</Link>
+                      </li>
+                      <li>
+                        <Link href="/team">Team</Link>
+                      </li>
+                      <li>
+                        <Link href="/services-details">Services Details</Link>
+                      </li>
+                      <li>
+                        <Link href="/404-error">404 Page</Link>
                       </li>
                       <li>
                         <Link href="/contact">Contact</Link>

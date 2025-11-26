@@ -24,3 +24,12 @@ export const Blog = () => (
         <li><Link href="/blog-details/1">Blog Details</Link></li>
     </Fragment>
 );
+export const Hotels = () => (
+    <Fragment>
+        <li><Link href="/">Hestia Stay, Kasana</Link></li>
+        <li><Link href="/">Hestia Hotel & Restaurant, Knowledge Park–3</Link></li>
+        <li><Link href="/">The Hestia Hotel, Dwarka</Link></li>
+        <li><Link href="/">The Hestia Hotel, Sector 132</Link></li>
+        <li><Link href="/">Fifth Property – Coming Soon</Link></li>
+    </Fragment>
+);

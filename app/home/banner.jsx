@@ -1,6 +1,5 @@
 "use client";
-import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectFade, Autoplay } from "swiper/modules";
 import Link from "next/link";
@@ -20,7 +19,6 @@ const bannerData = {
 };
 const { bannerItem } = bannerData;
 const Banner = () => {
-  const [isOpen, setOpen] = useState(false);
   return (
     <div className="banner__two">
       <Swiper
@@ -58,30 +56,6 @@ const Banner = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="banner__two-video custom__container">
-        <div className="banner__two-video-left">
-          <div className="video__play">
-            <React.Fragment>
-              <span onClick={() => setOpen(true)}>
-                <i className="fas fa-play"></i>
-              </span>
-            </React.Fragment>
-          </div>
-        </div>
-        <div className="banner__two-video-right">
-          <span>
-            <a href="#deluxe">
-              <i className="fal fa-long-arrow-left"></i>Scroll Down
-            </a>
-          </span>
-        </div>
-      </div>
-      <ModalVideo
-        channel="youtube"
-        isOpen={isOpen}
-        videoId="SZEflIVnhH8"
-        onClose={() => setOpen(false)}
-      />
     </div>
   );
 };

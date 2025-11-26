@@ -19,7 +19,6 @@ import Bandarea from "./home/band-area";
 // Home One components (merged)
 import Feature from "./feature/feature";
 import Testimonial from "./testimonial/testimonial";
-import Videoarea from "./videoarea/videoarea";
 import Blog from "./blog/blog";
 
 
@@ -34,7 +33,6 @@ export default function Home() {
         <Callarea />
         <Accommodations />
         <Services />
-        <Videoarea />
         <Feature />
         <Roomarea />
         <Teamarea />

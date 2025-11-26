@@ -66,3 +66,128 @@ Page
         }
     }
 }
+
+.about__content {
+	padding: 120px 0 90px 0;
+	background: var(--white);
+	&-intro {
+		text-align: center;
+		margin-bottom: 60px;
+		h2 {
+			font-size: 38px;
+			line-height: 48px;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+	&-section {
+		margin-bottom: 60px;
+	}
+	&-card {
+		background: var(--color-9);
+		border-radius: 16px;
+		padding: 35px 30px;
+		margin-bottom: 30px;
+		box-shadow: var(--box-shadow-3);
+		height: 100%;
+		&-count {
+			display: inline-block;
+			font-size: 16px;
+			font-weight: 700;
+			color: var(--primary-color);
+			margin-bottom: 10px;
+		}
+		h4 {
+			font-size: 22px;
+			line-height: 32px;
+			margin-bottom: 12px;
+		}
+		p {
+			margin: 0;
+		}
+	}
+	&-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 30px;
+		margin-bottom: 60px;
+	}
+	&-panel {
+		background: var(--color-9);
+		border-radius: 16px;
+		padding: 40px 35px;
+		box-shadow: var(--box-shadow-3);
+		h4 {
+			font-size: 24px;
+			line-height: 34px;
+			margin-bottom: 15px;
+		}
+		p {
+			margin: 0;
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			li {
+				display: flex;
+				align-items: flex-start;
+				gap: 12px;
+				font-weight: 500;
+				color: var(--heading-color);
+				margin-bottom: 12px;
+				i {
+					color: var(--primary-color);
+					margin-top: 4px;
+				}
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+		&--brand {
+			text-align: center;
+			margin-top: 40px;
+		}
+	}
+	&-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		max-width: 950px;
+		margin-left: auto;
+		margin-right: auto;
+		li {
+			display: flex;
+			align-items: flex-start;
+			gap: 12px;
+			padding: 18px 0;
+			font-weight: 500;
+			border-bottom: 1px solid var(--border-color-1);
+			i {
+				color: var(--primary-color);
+				margin-top: 5px;
+			}
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.about__content {
+		padding: 80px 0 60px 0;
+		&-intro h2 {
+			font-size: 32px;
+			line-height: 42px;
+		}
+		&-card,
+		&-panel {
+			padding: 30px 25px;
+		}
+	}
+}
