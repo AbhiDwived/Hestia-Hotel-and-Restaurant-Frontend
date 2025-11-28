@@ -45,6 +45,7 @@ const Header = () => {
                       </li>
                       <li><Link href="/about">About</Link></li>
                       <li><Link href="/contact">Contact</Link></li>
+                      <li><Link href="/login" className="login-btn">Login</Link></li>
                     </ul>
                   </nav>
                 </div>
@@ -120,6 +121,9 @@ const Header = () => {
                       </li>
                       <li>
                         <Link href="/contact">Contact</Link>
+                      </li>
+                      <li>
+                        <Link href="/login">Login</Link>
                       </li>
                     </ul>
                   </div>
