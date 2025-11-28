@@ -11,10 +11,10 @@ export const Page = () => (
 );
 export const Room = () => (
     <Fragment>
-        <li><Link href="/room-style">Room Style</Link></li>
-        <li><Link href="/room-modern">Room Modern</Link></li>
-        <li><Link href="/room-list">Room List</Link></li>
-        <li><Link href="/room-details">Room Details</Link></li>
+        <li><Link href="/room-details">Junior Suite</Link></li>
+        <li><Link href="/room-details">Luxury room</Link></li>
+        <li><Link href="/room-details">Small Suite</Link></li>
+        <li><Link href="/room-details">Double Room</Link></li>
     </Fragment>
 );
 export const Blog = () => (

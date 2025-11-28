@@ -27,12 +27,26 @@ const Header = () => {
 
               </div>
               <div className="header__area-menubar-right">
-                <div className="header__area-menubar-right-info">
-                  <span>
-                    <a href="#">
-                      <i className="fal fa-map-marker-alt"></i>Plot No- 14/29 A, near Pari Chowk, Knowledge Park III, Greater Noida, Uttar Pradesh 201310
-                    </a>
-                  </span>
+                <div className="header__area-menubar-right-menu">
+                  <nav className="header__area-menubar-right-menu-nav">
+                    <ul>
+                      <li><Link href="/">Home</Link></li>
+                      <li className="menu-item-has-children">
+                        <a href="#">Hotels</a>
+                        <ul className="sub-menu">
+                          <Hotels />
+                        </ul>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <a href="#">Rooms</a>
+                        <ul className="sub-menu">
+                          <Room />
+                        </ul>
+                      </li>
+                      <li><Link href="/about">About</Link></li>
+                      <li><Link href="/contact">Contact</Link></li>
+                    </ul>
+                  </nav>
                 </div>
                 <div className="header__area-menubar-right-sidebar">
                   <div

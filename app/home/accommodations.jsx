@@ -9,11 +9,7 @@ const Accommodations = () => {
             <div className="accommodations__two-left">
               <img src="/img/custom/accommodation-lamp.jpg" alt="Executive guest room with warm lighting" />
               <div className="accommodations__two-left-roll">
-                <img
-                  className="content__roll"
-                  src="/img/content.png"
-                  alt=""
-                />
+                
               </div>
             </div>
           </div>

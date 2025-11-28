@@ -5,6 +5,7 @@ import "./styles/styles.css";
 import "./assets/css/all.css";
 import "./assets/css/meanmenu.min.css";
 import "./assets/sass/style.css";
+import "./assets/css/theme-override.css";
 
 export default function RootLayout({ children }) {
   useEffect(() => {

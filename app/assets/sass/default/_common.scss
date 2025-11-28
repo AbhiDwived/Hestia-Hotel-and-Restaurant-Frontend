@@ -56,6 +56,13 @@ input[type="submit"] {
 	background: var(--primary-color);
 	color: var(--white);
 	padding: 16px 43px;
+	transition: all 0.3s ease;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: var(--secondary-color);
 }
 button:hover,
 input[type="button"]:hover,
@@ -211,7 +218,7 @@ Theme Btn CSS
 		transition: all 0.5s ease-out 0s;
         top: 0;
         left: 0;
-		background: var(--heading-color);
+		background: var(--secondary-color);
 		width: 0;
 		height: 100%;
         z-index: -1;
@@ -224,7 +231,7 @@ Theme Btn CSS
 		transition: all 0.5s ease-out 0s;
         bottom: 0;
         right: 0;
-		background: var(--heading-color);
+		background: var(--secondary-color);
 		width: 0;
 		height: 100%;
         z-index: -1;
@@ -316,7 +323,7 @@ Theme Btn CSS
 	display: inline-block;
 	position: relative;
 	font-weight: 600;
-	color: var(--primary-color);
+	color: var(--accent-color);
 	text-transform: capitalize;
 	margin-bottom: 5px;
 	font-family: var(--heading-font);

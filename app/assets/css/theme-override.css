@@ -1,0 +1,353 @@
+/* Hestia Hotel Corporate Color Theme Override */
+
+:root {
+  /* Primary Colors */
+  --primary-color: #0A3D62 !important;
+  --secondary-color: #1260A0 !important;
+  --accent-color: #0EA5E9 !important;
+  
+  /* Neutral/Secondary Colors */
+  --slate-grey: #1F2937 !important;
+  --panel-bg: #F1F5F9 !important;
+  --soft-blue-bg: #E8F1F8 !important;
+  
+  /* Override existing variables */
+  --heading-color: #1F2937 !important;
+  --body-color: #1F2937 !important;
+  --color-1: #1F2937 !important;
+  --color-4: #F1F5F9 !important;
+  --color-5: #E8F1F8 !important;
+  --color-6: #0A3D62 !important;
+  --color-7: #1F2937 !important;
+  --color-8: #1F2937 !important;
+  --border-color-1: #1F2937 !important;
+  --border-color-2: #E8F1F8 !important;
+  --border-color-3: #F1F5F9 !important;
+  --border-color-55: #E8F1F8 !important;
+  --border-color-5: #1F2937 !important;
+  --color-13: #0A3D62 !important;
+}
+
+/* Button Styles */
+.theme-btn {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.theme-btn:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.theme-btn::before,
+.theme-btn::after {
+  background: var(--secondary-color) !important;
+}
+
+.btn-primary,
+button[type="submit"],
+input[type="submit"] {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover,
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+/* Accent Elements */
+.subtitle__one,
+.banner__two-content span {
+  color: var(--accent-color) !important;
+}
+
+/* Header Styles */
+.header__area {
+  background-color: var(--primary-color) !important;
+}
+
+.header__area-menubar-right-menu ul li:hover > a {
+  color: var(--accent-color) !important;
+}
+
+.header__area-menubar-right-info span a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Footer Styles */
+.footer__area {
+  background-color: var(--slate-grey) !important;
+}
+
+.footer__area-widget h5 {
+  color: var(--white) !important;
+}
+
+.footer__area-widget-about p {
+  color: #D1D5DB !important;
+}
+
+.footer__area-widget-contact-item-icon i {
+  color: var(--accent-color) !important;
+}
+
+.footer__area-widget-contact-item-content span a {
+  color: #D1D5DB !important;
+  transition: color 0.3s ease !important;
+}
+
+.footer__area-widget-contact-item-content span a:hover {
+  color: var(--accent-color) !important;
+}
+
+.footer__area-widget-menu ul li a {
+  color: #D1D5DB !important;
+  transition: color 0.3s ease !important;
+}
+
+.footer__area-widget-menu ul li a:hover {
+  color: var(--accent-color) !important;
+}
+
+.footer__area-widget-about-social ul li a i {
+  color: #9CA3AF !important;
+  background-color: transparent !important;
+  border-color: #374151 !important;
+  transition: all 0.3s ease !important;
+}
+
+.footer__area-widget-about-social ul li a i:hover {
+  color: var(--white) !important;
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.footer__area-widget-subscribe form input {
+  background-color: #374151 !important;
+  border-color: #4B5563 !important;
+  color: #D1D5DB !important;
+}
+
+.footer__area-widget-subscribe form input:focus {
+  border-color: var(--accent-color) !important;
+  color: var(--white) !important;
+}
+
+.footer__area-widget-subscribe form button {
+  background-color: var(--accent-color) !important;
+  color: var(--white) !important;
+}
+
+.footer__area-widget-subscribe form button:hover {
+  background-color: var(--primary-color) !important;
+}
+
+.copyright__area {
+  border-top-color: #374151 !important;
+}
+
+.copyright__area-left p {
+  color: #D1D5DB !important;
+}
+
+.copyright__area-left p a {
+  color: var(--accent-color) !important;
+}
+
+.copyright__area-right ul li a {
+  color: #9CA3AF !important;
+  border-right-color: #4B5563 !important;
+}
+
+.copyright__area-right ul li a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Services Styles */
+.services__two-item:hover {
+  border-color: var(--accent-color) !important;
+}
+
+.services__two-item-icon {
+  background-color: var(--soft-blue-bg) !important;
+}
+
+.services__area-item-icon {
+  background-color: var(--soft-blue-bg) !important;
+}
+
+/* Form Styles */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 0 0.2rem rgba(14, 165, 233, 0.25) !important;
+}
+
+/* Background Utilities */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.bg-accent {
+  background-color: var(--accent-color) !important;
+}
+
+.bg-soft-blue {
+  background-color: var(--soft-blue-bg) !important;
+}
+
+.bg-panel {
+  background-color: var(--panel-bg) !important;
+}
+
+/* Text Color Utilities */
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.text-accent {
+  color: var(--accent-color) !important;
+}
+
+.text-slate {
+  color: var(--slate-grey) !important;
+}
+
+/* Border Utilities */
+.border-primary {
+  border-color: var(--primary-color) !important;
+}
+
+.border-accent {
+  border-color: var(--accent-color) !important;
+}
+
+/* Hover Effects */
+a:hover,
+.simple-btn:hover,
+.simple-btn-2:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Icon Colors */
+.footer__area-widget-contact-item-icon i,
+.services__details-left-content-list p i {
+  color: var(--accent-color) !important;
+}
+
+/* Pagination */
+.swiper-pagination-bullet {
+  background: var(--accent-color) !important;
+}
+
+.swiper-pagination-bullet::after {
+  border-color: var(--accent-color) !important;
+}
+
+/* Video Play Button */
+.video__play span:hover::after {
+  border-color: var(--accent-color) !important;
+}
+
+.video__play span:hover i {
+  color: var(--accent-color) !important;
+}
+
+/* Scroll to Top */
+.scroll-up::after {
+  color: var(--accent-color) !important;
+}
+
+.scroll-up svg.scroll-circle path {
+  stroke: var(--accent-color) !important;
+}
+
+/* Menu Hover Effects */
+.side__menu li:hover > a,
+.header__area-menubar-right-sidebar-popup-menu ul li:hover > a {
+  color: var(--accent-color) !important;
+}
+
+/* Copyright Links */
+.copyright__area-left p a,
+.copyright__area-right ul li a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Booking Form */
+.booking__area::after {
+  background: var(--primary-color) !important;
+}
+
+/* Team and Testimonial Hover Effects */
+.team__area-item:hover .team__area-item-content h4 a,
+.testimonial__area-item-content h4 a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Blog Hover Effects */
+.blog__area-item:hover .blog__area-item-content h4 a {
+  color: var(--accent-color) !important;
+}
+
+/* Room Details Hover Effects */
+.room__details-left-content h4 a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Contact Form */
+.contact__area-form button {
+  background-color: var(--primary-color) !important;
+}
+
+.contact__area-form button:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+/* Breadcrumb */
+.breadcrumb__area {
+  background-color: var(--primary-color) !important;
+}
+
+/* Sidebar */
+.sidebar__area {
+  background-color: var(--panel-bg) !important;
+}
+
+/* Call to Action */
+.call__area {
+  background-color: var(--primary-color) !important;
+}
+
+/* Banner Overlay */
+.banner__two-area-image::after {
+  background: var(--primary-color) !important;
+  opacity: 0.7 !important;
+}
+
+/* Accommodation Cards */
+.accommodations__area-item:hover {
+  box-shadow: 0 10px 30px rgba(10, 61, 98, 0.15) !important;
+}
+
+/* Deluxe Section */
+.deluxe__area {
+  background-color: var(--soft-blue-bg) !important;
+}
+
+/* Place Area */
+.place__area {
+  background-color: var(--panel-bg) !important;
+}
