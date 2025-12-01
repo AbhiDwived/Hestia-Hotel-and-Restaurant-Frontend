@@ -15,7 +15,7 @@ const footerOne = {
     officeInfos: [
         {link:'https://www.google.com/maps',info:'Plot No- 14/29 A, near Pari Chowk, Knowledge Park III, Greater Noida, Uttar Pradesh 201310',icon: <i className="fal fa-map-marked-alt"></i>},
         {link:'mailto:info@hestiahotel.com',info:'info@hestiahotel.com',icon: <i className="fal fal fa-envelope-open-text"></i>},
-        {link:'tel:+919990555740',info:'+91 99905 55740',icon: <i className='fal fa-phone-alt'></i>}
+        {link:'tel:+919990555740',info:'+91 9211987979',icon: <i className='fal fa-phone-alt'></i>}
     ],
   }
 

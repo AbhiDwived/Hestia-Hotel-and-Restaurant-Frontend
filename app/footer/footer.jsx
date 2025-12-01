@@ -34,7 +34,7 @@ export default function Footer() {
               <div className="footer__area-widget-about">
                 <div className="footer__area-widget-about-logo">
                   {/* Company logo */}
-                  <Link href="/" style={{fontSize: '24px', fontWeight: 'bold', color: '#fff', textDecoration: 'none'}}>
+                  <Link href="/" style={{ fontSize: '24px', fontWeight: 'bold', color: '#fff', textDecoration: 'none' }}>
                     Hestia Hotel and Restaurant
                   </Link>
                 </div>
@@ -99,7 +99,7 @@ export default function Footer() {
                     type="text"
                     name="email"
                     placeholder="Email Address"
-                    
+
                   />
                   {/* Submit button */}
                   <button type="submit">
@@ -116,7 +116,7 @@ export default function Footer() {
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-7 md-mb-10">
               <div className="copyright__area-left md-t-center">
-                  <p>Copyright © 2024 <Link href="/">Hestia Hotel and Restaurant</Link></p>
+                <p>Copyright © 2024 <Link href="/">Hestia Hotel and Restaurant</Link></p>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-5">

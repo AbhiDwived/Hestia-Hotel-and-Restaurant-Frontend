@@ -27,22 +27,22 @@ export default function Home() {
   return (
     <>
       <SEO pageTitle="Hestia Hotel and Restaurant" />
-        <Header />
-        <Banner />
-        <Deluxe />
-        <Callarea />
-        <Accommodations />
-        <Services />
-        <Feature />
-        <Roomarea />
-        <Teamarea />
-        <Testimonial />
-        <Bookingarea />
-        <Placearea />
-        <Blog />
-        <Bandarea />
-        <Footer />
-        <ScrollToTopButton />
+      <Header />
+      <Banner />
+      <Deluxe />
+      <Callarea />
+      <Accommodations />
+      <Services />
+      <Feature />
+      <Roomarea />
+      <Teamarea />
+      <Testimonial />
+      <Bookingarea />
+      <Placearea />
+      <Blog />
+      <Bandarea />
+      <Footer />
+      <ScrollToTopButton />
     </>
   );
 }

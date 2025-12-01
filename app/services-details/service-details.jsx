@@ -64,7 +64,7 @@ const ServicesDetails = () => {
                   <div className="all__sidebar-item-help-contact-content">
                     <span>Quick Help</span>
                     <h6>
-                      <Link href="tel:+919990555740">+91 99905 55740</Link>
+                      <Link href="tel:+919990555740">+91 9211987979</Link>
                     </h6>
                   </div>
                 </div>

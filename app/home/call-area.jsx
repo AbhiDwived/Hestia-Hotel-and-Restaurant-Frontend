@@ -18,7 +18,7 @@ const Callarea = () => {
               </div>
               <div className="call__area-bg-right-content">
                 <span>
-                  <a href="tel:+919990555740">+91 99905 55740</a>
+                  <a href="tel:+919990555740">+91 9211987979</a>
                 </span>
               </div>
             </div>

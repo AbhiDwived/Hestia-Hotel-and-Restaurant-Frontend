@@ -16,7 +16,7 @@ const Roomarea = () => {
                 </div>
                 <div className="room__area-title-contact-content">
                   <span>
-                    <a href="tel:+919990555740">+91 99905 55740</a>
+                    <a href="tel:+919990555740">+91 9211987979</a>
                   </span>
                 </div>
               </div>

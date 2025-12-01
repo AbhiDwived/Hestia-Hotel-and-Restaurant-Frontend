@@ -21,7 +21,7 @@ const Contactcontainer = () => {
                   <div className="contact__area-info-item-content">
                     <span>Emergency Help</span>
                     <h6>
-                      <a href="tel:+919990555740">+91 99905 55740</a>
+                      <a href="tel:+919990555740">+91 9211987979</a>
                     </h6>
                   </div>
                 </div>

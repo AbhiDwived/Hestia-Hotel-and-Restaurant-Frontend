@@ -1,4 +1,4 @@
-const KasanaServices = () => {
+const KP3Services = () => {
     return (
         <div className="room__area section-padding">
             <div className="container">
@@ -6,9 +6,9 @@ const KasanaServices = () => {
                     <div className="col-xl-4 col-lg-6">
                         <div className="room__area-title">
                             <span className="subtitle__one">Our Features</span>
-                            <h2>Hotel Hestia Stay</h2>
+                            <h2>Hestia Hotel & Restaurant</h2>
                             <p>
-                                Hotel Hestia Stay is a strategically positioned hospitality asset offering a balanced blend of comfort, functionality, and service reliability. Located in Kasna Site 4 near the Oppo Factory, the property is well-aligned to cater to corporate travellers, industrial visitors, and short-stay guests seeking dependable accommodation in the Greater Noida industrial corridor.
+                                Experience world-class hospitality at Hestia Hotel & Restaurant in Knowledge Park III, Greater Noida. Our property offers premium accommodations with modern amenities, designed to cater to both business and leisure travelers.
                             </p>
                             <div className="room__area-title-contact">
                                 <div className="room__area-title-contact-icon">
@@ -24,7 +24,7 @@ const KasanaServices = () => {
                     </div>
                     <div className="col-xl-4 order-last order-lg-second">
                         <div className="room__area-image">
-                            <img src="/img/custom/room-single.jpg" alt="Hestia Stay Interior" />
+                            <img src="/img/custom/room-single.jpg" alt="Hestia Hotel Interior" />
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-6 xl-mb-30">
@@ -34,9 +34,9 @@ const KasanaServices = () => {
                                     <img src="/img/icon/key.png" alt="" />
                                 </div>
                                 <div className="room__area-list-item-content">
-                                    <h5>In-Room Facilities</h5>
+                                    <h5>Premium Rooms</h5>
                                     <p>
-                                        LED Television, Geyser, Double Bed with premium linen.
+                                        Deluxe and Super Deluxe rooms with modern amenities.
                                     </p>
                                 </div>
                             </div>
@@ -45,9 +45,9 @@ const KasanaServices = () => {
                                     <img src="/img/icon/breakfast.png" alt="" />
                                 </div>
                                 <div className="room__area-list-item-content">
-                                    <h5>Hygiene & Maintenance</h5>
+                                    <h5>Restaurant</h5>
                                     <p>
-                                        Neat and clean washrooms, daily housekeeping.
+                                        On-site restaurant serving delicious cuisine.
                                     </p>
                                 </div>
                             </div>
@@ -56,9 +56,9 @@ const KasanaServices = () => {
                                     <img src="/img/icon/wifi-1.png" alt="" />
                                 </div>
                                 <div className="room__area-list-item-content">
-                                    <h5>Outdoor Facility</h5>
+                                    <h5>High-Speed WiFi</h5>
                                     <p>
-                                        A well-maintained garden area offering a refreshing environment.
+                                        Complimentary high-speed internet throughout the property.
                                     </p>
                                 </div>
                             </div>
@@ -67,20 +67,9 @@ const KasanaServices = () => {
                                     <img src="/img/icon/list-2.png" alt="" />
                                 </div>
                                 <div className="room__area-list-item-content">
-                                    <h5>Balcony Rooms</h5>
+                                    <h5>24/7 Service</h5>
                                     <p>
-                                        Balcony Rooms available for enhanced guest experience.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="room__area-list-item">
-                                <div className="room__area-list-item-icon">
-                                    <img src="/img/icon/location.png" alt="" />
-                                </div>
-                                <div className="room__area-list-item-content">
-                                    <h5>Prime Industrial Location</h5>
-                                    <p>
-                                        Situated in Kasna Site 4, adjacent to major corporate hubs and near the Oppo Factory.
+                                        Round-the-clock front desk and room service.
                                     </p>
                                 </div>
                             </div>
@@ -92,4 +81,4 @@ const KasanaServices = () => {
     );
 };
 
-export default KasanaServices;
+export default KP3Services;
